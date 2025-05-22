@@ -1,3 +1,12 @@
+REST_FRAMEWORK = {
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny',
+    ],
+}
 """
 Django settings for octofit_tracker project.
 
@@ -25,7 +34,11 @@ SECRET_KEY = "django-insecure-e5zcnhqd+4mfxqp==8hz)t3i$t#e+8tejfif7w$6!^cw^ph&65
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'animated-pancake-69rjrp74r7jjf9g4-8000.app.github.dev',
+]
 
 
 # Application definition
