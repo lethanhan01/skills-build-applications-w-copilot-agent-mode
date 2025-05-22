@@ -1,0 +1,106 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navigation styles */
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #00bcd4 100%);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffd600 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+/* Table styles */
+table {
+  width: 95%;
+  margin: 1.5rem auto;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+th, td {
+  padding: 1rem;
+  border-bottom: 1px solid #b2ebf2;
+}
+th {
+  background: #00bcd4;
+  color: #fff;
+  font-size: 1.1rem;
+}
+tr:nth-child(even) {
+  background: #e0f7fa;
+}
+tr:hover {
+  background: #b2ebf2;
+}
+
+/* Buttons */
+.btn, button {
+  background: linear-gradient(90deg, #1976d2 0%, #00bcd4 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  transition: background 0.2s;
+  margin: 0.2rem;
+}
+.btn:hover, button:hover {
+  background: linear-gradient(90deg, #00bcd4 0%, #1976d2 100%);
+  color: #ffd600;
+}
+
+/* Card styles */
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  max-width: 700px;
+}
+
+/* Links */
+a, .App-link {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #1976d2;
+  text-decoration: underline;
+}
+
+/* Favicon and logo */
+.octofit-logo {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
