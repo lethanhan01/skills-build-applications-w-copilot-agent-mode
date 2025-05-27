@@ -1,6 +1,3 @@
-
-
-
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Activities from './components/Activities';
@@ -8,9 +5,8 @@ import Leaderboard from './components/Leaderboard';
 import Teams from './components/Teams';
 import Users from './components/Users';
 import Workouts from './components/Workouts';
-import octofitLogo from '../docs/octofitapp-small.png';
-
-
+// Temporarily using a placeholder image until we move the actual image
+import octofitLogo from './logo.svg';
 
 function App() {
   return (
